@@ -17,16 +17,25 @@ namespace Wheel_of_Fortune_Wheel.Controllers
         private PuzzleSelector.PuzzleController selector; //the puzzle we selected
         public GameController() 
         {
-            this.selector= new PuzzleSelector.PuzzleController();
-            this.catagory = selector.catagory;
-            this.phrase = stringToCharArr(selector.phrase);
-            this.letters = LetterFactory.GetLetters();
+            Regenerate();
         }
+
 
         /// <summary>
         /// Deconstructor to save memory when the user solves it.
         /// </summary>
         ~GameController() { Console.WriteLine("Destructor was called."); }
+
+        /// <summary>
+        /// Sets a new catagory and phrase
+        /// </summary>
+        public void Regenerate()
+        {
+            this.selector = new PuzzleSelector.PuzzleController();
+            this.catagory = selector.catagory;
+            this.phrase = stringToCharArr(selector.phrase);
+            this.letters = LetterFactory.GetLetters();
+        }
 
         /// <summary>
         /// Checks if the letter is even in the phrase

@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Wheel_of_Fortune_Wheel.gameboard;
 using System.Runtime.CompilerServices;
+using Wheel_of_Fortune_Wheel.Controllers;
 
 namespace Wheel_of_Fortune_Wheel
 {
@@ -107,6 +108,10 @@ namespace Wheel_of_Fortune_Wheel
             }
         }
 
-        
+        private void Main_Load(object sender, EventArgs e)
+        {
+            GameStart start = new GameStart(this);
+            start.Start();
+        }
     }
 }

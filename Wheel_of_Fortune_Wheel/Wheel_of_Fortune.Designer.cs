@@ -5,7 +5,7 @@
         /// <summary>
         /// Required designer variable.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        public System.ComponentModel.IContainer components = null;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -111,6 +111,7 @@
             this.dButton = new System.Windows.Forms.PictureBox();
             this.iButton = new System.Windows.Forms.PictureBox();
             this.WOF_Wheel = new System.Windows.Forms.PictureBox();
+            this.catagoryLabel = new System.Windows.Forms.Label();
             this.gameboardPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
@@ -213,7 +214,7 @@
             this.TitleLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TitleLabel.AutoSize = true;
             this.TitleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TitleLabel.Location = new System.Drawing.Point(788, 44);
+            this.TitleLabel.Location = new System.Drawing.Point(555, 9);
             this.TitleLabel.Name = "TitleLabel";
             this.TitleLabel.Size = new System.Drawing.Size(279, 37);
             this.TitleLabel.TabIndex = 2;
@@ -1260,11 +1261,23 @@
             this.WOF_Wheel.TabIndex = 0;
             this.WOF_Wheel.TabStop = false;
             // 
+            // catagoryLabel
+            // 
+            this.catagoryLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.catagoryLabel.AutoSize = true;
+            this.catagoryLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.catagoryLabel.Location = new System.Drawing.Point(306, 48);
+            this.catagoryLabel.Name = "catagoryLabel";
+            this.catagoryLabel.Size = new System.Drawing.Size(155, 37);
+            this.catagoryLabel.TabIndex = 17;
+            this.catagoryLabel.Text = "Catagory";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1265, 675);
+            this.Controls.Add(this.catagoryLabel);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.gameboardPanel);
             this.Controls.Add(this.TitleLabel);
@@ -1273,6 +1286,7 @@
             this.MaximizeBox = false;
             this.Name = "Main";
             this.Text = "Wheel_of_Fortune";
+            this.Load += new System.EventHandler(this.Main_Load);
             this.gameboardPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
@@ -1360,89 +1374,90 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button Spin_Button;
-        private System.Windows.Forms.PictureBox WOF_Wheel;
-        private System.Windows.Forms.Label TitleLabel;
-        private System.Windows.Forms.PictureBox letter1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.Panel gameboardPanel;
-        private System.Windows.Forms.PictureBox pictureBox40;
-        private System.Windows.Forms.PictureBox pictureBox41;
-        private System.Windows.Forms.PictureBox pictureBox42;
-        private System.Windows.Forms.PictureBox pictureBox43;
-        private System.Windows.Forms.PictureBox pictureBox44;
-        private System.Windows.Forms.PictureBox pictureBox45;
-        private System.Windows.Forms.PictureBox pictureBox46;
-        private System.Windows.Forms.PictureBox pictureBox47;
-        private System.Windows.Forms.PictureBox pictureBox48;
-        private System.Windows.Forms.PictureBox pictureBox49;
-        private System.Windows.Forms.PictureBox pictureBox50;
-        private System.Windows.Forms.PictureBox pictureBox51;
-        private System.Windows.Forms.PictureBox pictureBox26;
-        private System.Windows.Forms.PictureBox pictureBox27;
-        private System.Windows.Forms.PictureBox pictureBox28;
-        private System.Windows.Forms.PictureBox pictureBox29;
-        private System.Windows.Forms.PictureBox pictureBox30;
-        private System.Windows.Forms.PictureBox pictureBox31;
-        private System.Windows.Forms.PictureBox pictureBox32;
-        private System.Windows.Forms.PictureBox pictureBox33;
-        private System.Windows.Forms.PictureBox pictureBox34;
-        private System.Windows.Forms.PictureBox pictureBox35;
-        private System.Windows.Forms.PictureBox pictureBox36;
-        private System.Windows.Forms.PictureBox pictureBox37;
-        private System.Windows.Forms.PictureBox pictureBox38;
-        private System.Windows.Forms.PictureBox pictureBox39;
-        private System.Windows.Forms.PictureBox pictureBox25;
-        private System.Windows.Forms.PictureBox pictureBox24;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.PictureBox pictureBox21;
-        private System.Windows.Forms.PictureBox pictureBox22;
-        private System.Windows.Forms.PictureBox pictureBox23;
-        private System.Windows.Forms.PictureBox iButton;
-        private System.Windows.Forms.PictureBox dButton;
-        private System.Windows.Forms.PictureBox cButton;
-        private System.Windows.Forms.PictureBox hButton;
-        private System.Windows.Forms.PictureBox bButton;
-        private System.Windows.Forms.PictureBox eButton;
-        private System.Windows.Forms.PictureBox gButton;
-        private System.Windows.Forms.PictureBox aButton;
-        private System.Windows.Forms.PictureBox fButton;
-        private System.Windows.Forms.PictureBox lButton;
-        private System.Windows.Forms.PictureBox kButton;
-        private System.Windows.Forms.PictureBox jButton;
-        private System.Windows.Forms.PictureBox vButton;
-        private System.Windows.Forms.PictureBox qButton;
-        private System.Windows.Forms.PictureBox pButton;
-        private System.Windows.Forms.PictureBox uButton;
-        private System.Windows.Forms.PictureBox oButton;
-        private System.Windows.Forms.PictureBox rButton;
-        private System.Windows.Forms.PictureBox tButton;
-        private System.Windows.Forms.PictureBox nButton;
-        private System.Windows.Forms.PictureBox sButton;
-        private System.Windows.Forms.PictureBox yButton;
-        private System.Windows.Forms.PictureBox xButton;
-        private System.Windows.Forms.PictureBox wButton;
-        private System.Windows.Forms.PictureBox mButton;
-        private System.Windows.Forms.PictureBox zButton;
-        private System.Windows.Forms.Panel panel1;
+        public System.Windows.Forms.Button Spin_Button;
+        public System.Windows.Forms.PictureBox WOF_Wheel;
+        public System.Windows.Forms.Label TitleLabel;
+        public System.Windows.Forms.PictureBox letter1;
+        public System.Windows.Forms.PictureBox pictureBox1;
+        public System.Windows.Forms.PictureBox pictureBox2;
+        public System.Windows.Forms.PictureBox pictureBox3;
+        public System.Windows.Forms.PictureBox pictureBox4;
+        public System.Windows.Forms.PictureBox pictureBox5;
+        public System.Windows.Forms.PictureBox pictureBox6;
+        public System.Windows.Forms.PictureBox pictureBox7;
+        public System.Windows.Forms.PictureBox pictureBox8;
+        public System.Windows.Forms.PictureBox pictureBox9;
+        public System.Windows.Forms.PictureBox pictureBox11;
+        public System.Windows.Forms.PictureBox pictureBox12;
+        public System.Windows.Forms.Panel gameboardPanel;
+        public System.Windows.Forms.PictureBox pictureBox40;
+        public System.Windows.Forms.PictureBox pictureBox41;
+        public System.Windows.Forms.PictureBox pictureBox42;
+        public System.Windows.Forms.PictureBox pictureBox43;
+        public System.Windows.Forms.PictureBox pictureBox44;
+        public System.Windows.Forms.PictureBox pictureBox45;
+        public System.Windows.Forms.PictureBox pictureBox46;
+        public System.Windows.Forms.PictureBox pictureBox47;
+        public System.Windows.Forms.PictureBox pictureBox48;
+        public System.Windows.Forms.PictureBox pictureBox49;
+        public System.Windows.Forms.PictureBox pictureBox50;
+        public System.Windows.Forms.PictureBox pictureBox51;
+        public System.Windows.Forms.PictureBox pictureBox26;
+        public System.Windows.Forms.PictureBox pictureBox27;
+        public System.Windows.Forms.PictureBox pictureBox28;
+        public System.Windows.Forms.PictureBox pictureBox29;
+        public System.Windows.Forms.PictureBox pictureBox30;
+        public System.Windows.Forms.PictureBox pictureBox31;
+        public System.Windows.Forms.PictureBox pictureBox32;
+        public System.Windows.Forms.PictureBox pictureBox33;
+        public System.Windows.Forms.PictureBox pictureBox34;
+        public System.Windows.Forms.PictureBox pictureBox35;
+        public System.Windows.Forms.PictureBox pictureBox36;
+        public System.Windows.Forms.PictureBox pictureBox37;
+        public System.Windows.Forms.PictureBox pictureBox38;
+        public System.Windows.Forms.PictureBox pictureBox39;
+        public System.Windows.Forms.PictureBox pictureBox25;
+        public System.Windows.Forms.PictureBox pictureBox24;
+        public System.Windows.Forms.PictureBox pictureBox10;
+        public System.Windows.Forms.PictureBox pictureBox13;
+        public System.Windows.Forms.PictureBox pictureBox14;
+        public System.Windows.Forms.PictureBox pictureBox15;
+        public System.Windows.Forms.PictureBox pictureBox16;
+        public System.Windows.Forms.PictureBox pictureBox17;
+        public System.Windows.Forms.PictureBox pictureBox18;
+        public System.Windows.Forms.PictureBox pictureBox19;
+        public System.Windows.Forms.PictureBox pictureBox20;
+        public System.Windows.Forms.PictureBox pictureBox21;
+        public System.Windows.Forms.PictureBox pictureBox22;
+        public System.Windows.Forms.PictureBox pictureBox23;
+        public System.Windows.Forms.PictureBox iButton;
+        public System.Windows.Forms.PictureBox dButton;
+        public System.Windows.Forms.PictureBox cButton;
+        public System.Windows.Forms.PictureBox hButton;
+        public System.Windows.Forms.PictureBox bButton;
+        public System.Windows.Forms.PictureBox eButton;
+        public System.Windows.Forms.PictureBox gButton;
+        public System.Windows.Forms.PictureBox aButton;
+        public System.Windows.Forms.PictureBox fButton;
+        public System.Windows.Forms.PictureBox lButton;
+        public System.Windows.Forms.PictureBox kButton;
+        public System.Windows.Forms.PictureBox jButton;
+        public System.Windows.Forms.PictureBox vButton;
+        public System.Windows.Forms.PictureBox qButton;
+        public System.Windows.Forms.PictureBox pButton;
+        public System.Windows.Forms.PictureBox uButton;
+        public System.Windows.Forms.PictureBox oButton;
+        public System.Windows.Forms.PictureBox rButton;
+        public System.Windows.Forms.PictureBox tButton;
+        public System.Windows.Forms.PictureBox nButton;
+        public System.Windows.Forms.PictureBox sButton;
+        public System.Windows.Forms.PictureBox yButton;
+        public System.Windows.Forms.PictureBox xButton;
+        public System.Windows.Forms.PictureBox wButton;
+        public System.Windows.Forms.PictureBox mButton;
+        public System.Windows.Forms.PictureBox zButton;
+        public System.Windows.Forms.Panel panel1;
+        public System.Windows.Forms.Label catagoryLabel;
     }
 }
 

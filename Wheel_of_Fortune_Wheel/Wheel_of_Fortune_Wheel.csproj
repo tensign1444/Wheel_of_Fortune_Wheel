@@ -51,10 +51,12 @@
     <Compile Include="Controllers\Catagories\CatagoryFactory.cs" />
     <Compile Include="Controllers\Catagories\FunAndGames.cs" />
     <Compile Include="Controllers\GameController.cs" />
+    <Compile Include="Controllers\GameStart.cs" />
     <Compile Include="Controllers\PuzzleSelector\PuzzleController.cs" />
     <Compile Include="gameboard\ILetter.cs" />
     <Compile Include="gameboard\Letter.cs" />
     <Compile Include="gameboard\LetterFactory.cs" />
+    <Compile Include="Players\Player.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
