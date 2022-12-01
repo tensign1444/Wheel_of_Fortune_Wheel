@@ -10,6 +10,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Wheel_of_Fortune_Wheel.gameboard;
+using System.Runtime.CompilerServices;
 
 namespace Wheel_of_Fortune_Wheel
 {
@@ -31,12 +32,22 @@ namespace Wheel_of_Fortune_Wheel
         //Used to close and open SpinWheel throughtout the code.
         static PictureBox wheel = new PictureBox();
         //Initializes the main program and assigns WOF_Wheel to wheel.
+        static PictureBox[] letterHolders;
         public Main()
         {
             InitializeComponent();
             wheel = WOF_Wheel;
             slots = SlotFactory.GetSlots();
             letters = LetterFactory.GetLetters();
+            letterHolders = new PictureBox[]
+            {
+                aButton, bButton, cButton, dButton, eButton,
+                fButton, gButton, hButton, iButton, jButton,
+                kButton,lButton,mButton,nButton,oButton,pButton,
+                qButton,rButton,sButton,tButton, uButton, vButton,
+                wButton,xButton,yButton,zButton
+            };
+
         }
         //Allows the the looping through of all png images, which
         //is what makes it look like the wheel is spinning.
@@ -84,5 +95,7 @@ namespace Wheel_of_Fortune_Wheel
                 SpinWheel.Start();
             }
         }
+
+        
     }
 }

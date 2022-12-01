@@ -13,7 +13,7 @@ namespace Wheel_of_Fortune_Wheel.gameboard
     {
         static string livePath = Environment.CurrentDirectory;
         static char[] alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ':,!&-.# ".ToLower().ToCharArray();
-        private static Letter[] letters = new Letter[24];
+        private static Letter[] letters = new Letter[35];
 
         /// <summary>
         /// constructor

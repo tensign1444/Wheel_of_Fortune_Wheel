@@ -118,14 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Letters\g.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Slot 23 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Slots\Slot 23 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Slot 9 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slots\Slot 9 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Letters\e.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slot 5 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slots\Slot 5 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Slot 12 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Slots\Slot 12 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="No slots active" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Slots\No slots active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Slot 13 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Slots\Slot 13 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,11 +145,14 @@
   <data name="Slot 1 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Slots\Slot 1 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Letters\b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Slot 8 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Slots\Slot 8 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Slot 21 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Slots\Slot 21 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Letters\d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Slot 24 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Slots\Slot 24 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,11 +163,14 @@
   <data name="Slot 20 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Slots\Slot 20 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Slot 11 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slots\Slot 11 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Slot 6 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Slots\Slot 6 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Slot 9 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Slots\Slot 9 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Letters\a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Slot 4 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Slots\Slot 4 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,8 +178,14 @@
   <data name="Slot 10 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Slots\Slot 10 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Slot 18 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slots\Slot 18 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Slot 17 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Slots\Slot 17 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Letters\c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Slot 15 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Slots\Slot 15 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,31 +193,34 @@
   <data name="Slot 7 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Slots\Slot 7 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="All slots active" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Slots\All slots active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="No slots active1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slots\No slots active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Slot 22 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Slots\Slot 22 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Slot 5 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Slots\Slot 5 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Slot 16 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Slots\Slot 16 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Slot 18 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Slots\Slot 18 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Slot 14 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Slots\Slot 14 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="All slots active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slots\All slots active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Slot 19 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Slots\Slot 19 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Slot 11 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Slots\Slot 11 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Slot 16 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slots\Slot 16 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="No slots active1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="No slots active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Slots\No slots active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slot 14 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slots\Slot 14 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slot 21 active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slots\Slot 21 active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Letters\f.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Letters\h.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
