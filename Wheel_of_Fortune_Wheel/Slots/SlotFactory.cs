@@ -25,7 +25,6 @@ namespace Wheel_of_Fortune_Wheel.Slots
         /// <returns></returns>
         public static Slots[] GetSlots()
         {
-            slots = Intialize();
             return slots;
         }
         /// <summary>
@@ -57,7 +56,7 @@ namespace Wheel_of_Fortune_Wheel.Slots
                     isBankrupt = false;
                     loseTurn = false;
                 }
-                Image img = Image.FromFile(livePath + "\\Resources\\Slot " + (i + 1) + " active.png");
+                Image img = Image.FromFile(livePath + "\\Resources\\Slots\\Slot " + (i + 1) + " active.png");
                 Slots tmp = new Slots(vals[i],isBankrupt, loseTurn, img);
                 temp[i] = tmp;
             }

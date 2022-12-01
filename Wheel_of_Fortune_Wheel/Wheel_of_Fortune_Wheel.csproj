@@ -46,6 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\Catagories\AroundTheHouse.cs" />
+    <Compile Include="Controllers\Catagories\Catagories.cs" />
+    <Compile Include="Controllers\Catagories\CatagoryFactory.cs" />
+    <Compile Include="Controllers\Catagories\FunAndGames.cs" />
+    <Compile Include="Controllers\GameController.cs" />
+    <Compile Include="Controllers\PuzzleSelector\PuzzleController.cs" />
+    <Compile Include="gameboard\ILetter.cs" />
+    <Compile Include="gameboard\Letter.cs" />
+    <Compile Include="gameboard\LetterFactory.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Slots\ISlot.cs" />
     <Compile Include="Slots\SlotFactory.cs" />
     <Compile Include="Slots\Slots.cs" />
@@ -62,14 +76,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -84,134 +93,173 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\No slots active.png">
+    <None Include="Resources\Slots\No slots active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\All slots active.png">
+    <None Include="Resources\Slots\All slots active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 1 active.png">
+    <None Include="Resources\Slots\Slot 1 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 2 active.png">
+    <None Include="Resources\Slots\Slot 2 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 3 active.png">
+    <None Include="Resources\Slots\Slot 3 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 4 active.png">
+    <None Include="Resources\Slots\Slot 4 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 5 active.png">
+    <None Include="Resources\Slots\Slot 5 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 6 active.png">
+    <None Include="Resources\Slots\Slot 6 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 7 active.png">
+    <None Include="Resources\Slots\Slot 7 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 8 active.png">
+    <None Include="Resources\Slots\Slot 8 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 9 active.png">
+    <None Include="Resources\Slots\Slot 9 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 10 active.png">
+    <None Include="Resources\Slots\Slot 10 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 11 active.png">
+    <None Include="Resources\Slots\Slot 11 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 12 active.png">
+    <None Include="Resources\Slots\Slot 12 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 13 active.png">
+    <None Include="Resources\Slots\Slot 13 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 14 active.png">
+    <None Include="Resources\Slots\Slot 14 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 15 active.png">
+    <None Include="Resources\Slots\Slot 15 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 16 active.png">
+    <None Include="Resources\Slots\Slot 16 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 17 active.png">
+    <None Include="Resources\Slots\Slot 17 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 18 active.png">
+    <None Include="Resources\Slots\Slot 18 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 19 active.png">
+    <None Include="Resources\Slots\Slot 19 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 20 active.png">
+    <None Include="Resources\Slots\Slot 20 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 21 active.png">
+    <None Include="Resources\Slots\Slot 21 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 22 active.png">
+    <None Include="Resources\Slots\Slot 22 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 23 active.png">
+    <None Include="Resources\Slots\Slot 23 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Slot 24 active.png">
+    <None Include="Resources\Slots\Slot 24 active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\Letters\!.jpg" />
+    <Content Include="Resources\Letters\#.jpg" />
+    <Content Include="Resources\Letters\%27.jpg" />
+    <Content Include="Resources\Letters\&amp;.jpg" />
+    <Content Include="Resources\Letters\,.jpg" />
+    <Content Include="Resources\Letters\-.jpg" />
+    <Content Include="Resources\Letters\..jpg" />
+    <Content Include="Resources\Letters\a.jpg" />
+    <Content Include="Resources\Letters\b.jpg" />
+    <Content Include="Resources\Letters\blank_side.jpg" />
+    <Content Include="Resources\Letters\c.jpg" />
+    <Content Include="Resources\Letters\colon.jpg" />
+    <Content Include="Resources\Letters\d.jpg" />
+    <Content Include="Resources\Letters\e.jpg" />
+    <Content Include="Resources\Letters\f.jpg" />
+    <Content Include="Resources\Letters\g.jpg" />
+    <Content Include="Resources\Letters\gameboard.png" />
+    <Content Include="Resources\Letters\h.jpg" />
+    <Content Include="Resources\Letters\i.jpg" />
+    <Content Include="Resources\Letters\j.jpg" />
+    <Content Include="Resources\Letters\k.jpg" />
+    <Content Include="Resources\Letters\l.jpg" />
+    <Content Include="Resources\Letters\m.jpg" />
+    <Content Include="Resources\Letters\n.jpg" />
+    <Content Include="Resources\Letters\o.jpg" />
+    <Content Include="Resources\Letters\p.png" />
+    <Content Include="Resources\Letters\q.jpg" />
+    <Content Include="Resources\Letters\r.jpg" />
+    <Content Include="Resources\Letters\s.jpg" />
+    <Content Include="Resources\Letters\t.jpg" />
+    <Content Include="Resources\Letters\u.jpg" />
+    <Content Include="Resources\Letters\v.jpg" />
+    <Content Include="Resources\Letters\w.jpg" />
+    <Content Include="Resources\Letters\x.jpg" />
+    <Content Include="Resources\Letters\y.jpg" />
+    <Content Include="Resources\Letters\z.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

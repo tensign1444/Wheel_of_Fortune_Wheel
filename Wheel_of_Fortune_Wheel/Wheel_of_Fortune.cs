@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Wheel_of_Fortune_Wheel.gameboard;
 
 namespace Wheel_of_Fortune_Wheel
 {
@@ -18,6 +19,8 @@ namespace Wheel_of_Fortune_Wheel
         static string livePath = Environment.CurrentDirectory;
         //Utilized in order to create a class of images to use for the spin.
         static Slots.Slots[] slots = new Slots.Slots[24];
+        //all the possible  letters to select
+        static Letter[] letters = new Letter[35];
         //Sets the current slot number to 0.
         static int i = 0;
         //Used to make the spinner start in the non spinning
@@ -33,6 +36,7 @@ namespace Wheel_of_Fortune_Wheel
             InitializeComponent();
             wheel = WOF_Wheel;
             slots = SlotFactory.GetSlots();
+            letters = LetterFactory.GetLetters();
         }
         //Allows the the looping through of all png images, which
         //is what makes it look like the wheel is spinning.
