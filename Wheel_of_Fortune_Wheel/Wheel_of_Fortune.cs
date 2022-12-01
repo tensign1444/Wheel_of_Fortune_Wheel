@@ -47,8 +47,19 @@ namespace Wheel_of_Fortune_Wheel
                 qButton,rButton,sButton,tButton, uButton, vButton,
                 wButton,xButton,yButton,zButton
             };
-
+            SetPlayerOptions();
         }
+
+
+        static void SetPlayerOptions()
+        {
+            char[] alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
+            for(int i = 0; i < letterHolders.Length; i++)
+            {
+                letterHolders[i].Image = Image.FromFile(livePath + $"\\Resources\\Letters\\{alpha[i]}.jpg");
+            }
+        }
+
         //Allows the the looping through of all png images, which
         //is what makes it look like the wheel is spinning.
         static void ImageChanger()
