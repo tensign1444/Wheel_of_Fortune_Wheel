@@ -44,7 +44,8 @@ namespace Wheel_of_Fortune_Wheel.Controllers
         /// <returns>true if it is, false if not</returns>
         public bool CheckLetter(char letter)
         {
-            if(this.phrase.Contains(letter)) return true;
+            letter = Char.ToUpper(letter);
+            if (this.phrase.Contains(letter)) return true;
             return false;
         }
 
@@ -55,6 +56,7 @@ namespace Wheel_of_Fortune_Wheel.Controllers
         /// <returns>array of all the locations.</returns>
         public int[] GetLocations(char letter)
         {
+            letter = Char.ToUpper(letter);
             List<int> locations = new List<int>();
             for(int i = 0; i < phrase.Length; i++)
             {

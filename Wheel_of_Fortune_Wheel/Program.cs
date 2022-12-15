@@ -16,7 +16,7 @@ namespace Wheel_of_Fortune_Wheel
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main());
+            Application.Run(new MainMenu());
         }
     }
 }

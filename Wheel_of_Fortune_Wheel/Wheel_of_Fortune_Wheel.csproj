@@ -53,6 +53,12 @@
     <Compile Include="Controllers\GameController.cs" />
     <Compile Include="Controllers\GameStart.cs" />
     <Compile Include="Controllers\PuzzleSelector\PuzzleController.cs" />
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="gameboard\ILetter.cs" />
     <Compile Include="gameboard\Letter.cs" />
     <Compile Include="gameboard\LetterFactory.cs" />
@@ -65,16 +71,19 @@
     <Compile Include="Slots\ISlot.cs" />
     <Compile Include="Slots\SlotFactory.cs" />
     <Compile Include="Slots\Slots.cs" />
-    <Compile Include="Wheel_of_Fortune.cs">
+    <Compile Include="MainGame.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Wheel_of_Fortune.Designer.cs">
-      <DependentUpon>Wheel_of_Fortune.cs</DependentUpon>
+    <Compile Include="MainGame.Designer.cs">
+      <DependentUpon>MainGame.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Wheel_of_Fortune.resx">
-      <DependentUpon>Wheel_of_Fortune.cs</DependentUpon>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainGame.resx">
+      <DependentUpon>MainGame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -95,6 +104,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\SF Fortune Wheel.ttf" />
     <None Include="Resources\Slots\No slots active.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -226,6 +236,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="Resources\giphy.gif" />
     <Content Include="Resources\Letters\!.jpg" />
     <Content Include="Resources\Letters\#.jpg" />
     <Content Include="Resources\Letters\%27.jpg" />
@@ -262,6 +273,9 @@
     <Content Include="Resources\Letters\x.jpg" />
     <Content Include="Resources\Letters\y.jpg" />
     <Content Include="Resources\Letters\z.jpg" />
+    <None Include="Resources\logo.png" />
+    <Content Include="Resources\logo.ico" />
+    <Content Include="Resources\Main Menu\giphy.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
